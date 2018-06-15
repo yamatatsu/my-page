@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "gatsby-link";
 import {Counter} from "react-powerplug"
 
 export default () => (
@@ -9,6 +10,9 @@ export default () => (
         <p>current count: {count}</p>
         <button onClick={inc}>plus</button>
         <button onClick={dec}>minus</button>
+        <br/>
+        <br/>
+        <Link to="/">back home</Link>
       </div>
     )}
   </Counter>
