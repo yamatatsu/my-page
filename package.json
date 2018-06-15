@@ -1,0 +1,15 @@
+{
+  "name": "my-page",
+  "description": "my page.",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.250",
+    "gatsby-link": "^1.6.40",
+    "react-powerplug": "^1.0.0-alpha.7"
+  }
+}
